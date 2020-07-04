@@ -1,0 +1,13 @@
+{
+  "appId": "com.techflowdigitals.ObaOrin",
+  "appName": "ObaOrin",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

@@ -1,0 +1,49 @@
+<ion-content>
+
+  <div class="heading">
+    <ion-toolbar color='primary'>
+      <ion-searchbar color='primary'></ion-searchbar>
+    </ion-toolbar>
+  </div>
+  <div class="container">
+    <ion-grid>
+      <ion-row class="ion-align-items-center">
+        <ion-col class="ion-align-self-center">
+          <ion-card [routerLink]="['/','home','music-list']">
+            <div class="center">
+              <ion-icon slot="icon-only" class="avartar" name="person"></ion-icon>
+              <h5 style="color: #000;">Testing</h5>
+            </div>
+          </ion-card>
+        </ion-col>
+        <ion-col class="ion-align-self-center">
+          <ion-card routerLink="/">
+            <div class="center">
+              <ion-icon slot="icon-only" class="avartar" name="person"></ion-icon>
+              <h5 style="color: #000;">Test</h5>
+            </div>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-card routerLink="/civildefense/personnel-search">
+            <div class="center">
+              <ion-icon slot="icon-only" class="avartar" name="person"></ion-icon>
+              <h5 style="color: #000;">Test</h5>
+            </div>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card routerLink="/frscmenu/personnel-search">
+            <div class="center">
+              <ion-icon slot="icon-only" class="avartar" name="person"></ion-icon>
+              <h5 style="color: #000;">Testing</h5>
+            </div>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</ion-content>
